@@ -9,7 +9,13 @@ Features
 Examples
 --------
 
-    FIXME (code sample of usage)
+    require 'nvidia-smi'
+    NvidiaSmi.gpu_count
+    => 1
+    NvidiaSmi.driver_version
+    => "384.90"
+    NvidiaSmi.gpus.first
+    => #<struct Struct::Gpu index="0", pci_bus="0x01", name="GeForce GTX 1060 3GB", uuid="GPU-57737cf0-1db6-4905-9caa-1eeb73beb974", temperature_gpu="72", fan_speed="55 %", memory_used="1216 MiB", memory_total="3013 MiB", memory_free="1797 MiB", utilization_memory="55 %", utilization_gpu="99 %", power_draw="121.77 W", power_limit="120.00 W", pstate="P2", clocks_gr="1759 MHz", clocks_sm="1759 MHz", clocks_mem="3802 MHz", clocks_video="1582 MHz", vbios_version="86.06.3C.00.8E">
 
 Requirements
 ------------
