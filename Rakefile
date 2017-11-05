@@ -10,8 +10,8 @@ task 'gem:release' => 'test:run'
 
 Bones {
   name     'nvidia-smi'
-  authors  'FIXME (who is writing this software)'
-  email    'FIXME (your e-mail)'
-  url      'FIXME (project homepage)'
+  authors  'Julien Cornuwel'
+  email    'julien@cornuwel.net	'
+  url      'https://github.com/cornuwel/nvidia-smi'
 }
 
