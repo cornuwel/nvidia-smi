@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/nvidia-smi.svg)](https://badge.fury.io/rb/nvidia-smi)
+
 nvidia-smi
 ===========
 
