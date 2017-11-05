@@ -1,12 +1,10 @@
 nvidia-smi
 ===========
 
-FIXME (describe your package)
-
 Features
 --------
 
-* FIXME (list of features and unsolved problems)
+* Get informations about the system's GPU(s), through nvidia-smi.
 
 Examples
 --------
@@ -16,29 +14,29 @@ Examples
 Requirements
 ------------
 
-* FIXME (list of requirements)
+* Nvidia driver
+* nvidia-smi
 
 Install
 -------
 
-* FIXME (sudo gem install, anything else)
+* sudo gem install nvidia-smi
 
 Author
 ------
 
-Original author: FIXME (author's name)
+Original author: Julien Cornuwel
 
 Contributors:
 
-* FIXME (contributor 1?)
-* FIXME (contributor 2?)
+* YourNameGoesHere
 
 License
 -------
 
-(The MIT License) FIXME (different license?)
+The MIT License
 
-Copyright (c) 2017 FIXME (author's name)
+Copyright (c) 2017 FIXME Julien Cornuwel
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
