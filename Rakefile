@@ -11,7 +11,7 @@ task 'gem:release' => 'test:run'
 Bones {
   name     'nvidia-smi'
   authors  'Julien Cornuwel'
-  email    'julien@cornuwel.net	'
+  email    'julien@cornuwel.net'
   url      'https://github.com/cornuwel/nvidia-smi'
 }
 

@@ -4,7 +4,7 @@ nvidia-smi
 Features
 --------
 
-* Get informations about the system's GPU(s), through nvidia-smi.
+Get informations about the system's GPU(s), through nvidia-smi.
 
 Examples
 --------
@@ -26,7 +26,7 @@ Requirements
 Install
 -------
 
-* sudo gem install nvidia-smi
+    sudo gem install nvidia-smi
 
 Author
 ------
