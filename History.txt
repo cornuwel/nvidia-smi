@@ -1,4 +1,7 @@
-== 1.0.0 / 2017-11-05
+== 0.1.0 / 2017-11-05
 
-* 1 major enhancement
-  * Birthday!
+* Very basic functionality
+  * Number of Nvidia GPUs
+  * Driver version
+  * Basic informations about each GPU, wrapped in a Struct
+
