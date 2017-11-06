@@ -3,10 +3,14 @@
 nvidia-smi
 ===========
 
+Get informations about the system's GPU(s), through nvidia-smi.
+
 Features
 --------
 
-Get informations about the system's GPU(s), through nvidia-smi.
+* Get the number of GPUs seen by the driver
+* Get the driver's version
+* Get an array of Struct::Gpu objects with all relevant informations about each GPU
 
 Examples
 --------
@@ -44,7 +48,7 @@ License
 
 The MIT License
 
-Copyright (c) 2017 FIXME Julien Cornuwel
+Copyright (c) 2017 Julien Cornuwel
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
