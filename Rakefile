@@ -5,8 +5,8 @@ rescue LoadError
   abort '### Please install the "bones" gem ###'
 end
 
-task :default => 'test:run'
-task 'gem:release' => 'test:run'
+task :default => 'spec'
+task 'gem:release' => 'spec'
 
 Bones {
   name     'nvidia-smi'
