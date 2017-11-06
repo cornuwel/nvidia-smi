@@ -53,7 +53,7 @@ module NvidiaSmi
   #
   def self.gpus
     gpus = Array.new
-    data = `nvidia-smi --query-gpu=#{@@nvidia_keys.join(',')} --format=csv,noheader`.each_line do |line|
+    `nvidia-smi --query-gpu=#{@@nvidia_keys.join(',')} --format=csv,noheader`.each_line do |line|
       values = line.strip.split(',').each do |v|
         v.strip!
       end
