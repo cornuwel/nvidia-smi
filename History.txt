@@ -1,3 +1,9 @@
+== 0.1.1 / 2017-11-06
+
+* No new features
+  * Added comments for rdoc
+  * Added specs
+
 == 0.1.0 / 2017-11-05
 
 * Very basic functionality
