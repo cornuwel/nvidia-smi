@@ -2,6 +2,10 @@
 
 ![Gem](https://img.shields.io/gem/dt/nvidia-smi)
 
+![Issues](https://img.shields.io/github/issues/cornuwel/nvidia-smi)
+
+![GitHub pull requests](https://img.shields.io/github/issues-pr/cornuwel/nvidia-smi)
+
 nvidia-smi
 ===========
 
