@@ -1,6 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/nvidia-smi.svg)](https://badge.fury.io/rb/nvidia-smi)
 
-![Gem](https://img.shields.io/gem/dv/nvidia-smi/stable)
+![Gem](https://img.shields.io/gem/dt/nvidia-smi)
 
 nvidia-smi
 ===========
